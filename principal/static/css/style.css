@@ -1,0 +1,150 @@
+nav {
+    width: 95%;
+    margin: auto;
+}
+
+nav ul {
+    margin-left: 100px;
+}
+
+nav ul a {
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    padding: 50px;
+}
+
+.card-relogio {
+    border-left: 1px solid gray;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+span {
+    color: gray;
+}
+
+h1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center
+}
+
+.main-relogios {
+    margin-top: 50px;
+}
+.titulo-desc{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.card-text{
+    width: 40%;
+    font-size: 20px;
+}
+.flex-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-title{
+    font-size: 32px;
+}
+.card-preco{
+    font-size: 36px;
+    font-weight: 500;
+}
+.botao-comprar{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.valorQuant{
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+footer h2{
+    font-size: 44px;
+}
+footer p{
+    font-size: 18px;
+}
+
+.integrantes {
+    padding: 0px 100px;
+}
+
+.flex-int {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.integrantes .row div {
+    background-color: #FFFF;
+    margin: 80px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.integrantes div img {
+    margin-top: 28px;
+    width: 100%;
+}
+
+.integrantes p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.discente {
+    margin-top: 32px;
+    padding-bottom: 40px;
+    width: 60%;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: solid 1px #000000;
+}
+
+.nome {
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.cidade{
+    font-size: 18px;
+}
+.sobre-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-quemsomos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    width: 70%;
+    text-align: justify;
+
+}
+.banner{
+    width: 100%;
+    margin: 50px 0;
+}

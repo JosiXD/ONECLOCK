@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block principal %}
+
+<H1>QUEM SOMOS?</H1>
+<div class="d-flex justify-content-center">
+    <p class="p-quemsomos ">Estudantes do IFRN do curso técnico de informática, somos Ruan
+        Carlos e
+        Josimiel Adrian. Fizemos esse projeto com o
+        objetivo de comtemplar a nota do terceiro e quarto bimestre das disciplinas de Programação para Internet,
+        Projeto de
+        Desenvolvimento de Software e
+        Fundamentos de Sistemas Operacionais e Sistemas Operacionais de Rede </p>
+</div>
+<section class="integrantes container-fluid">
+
+    <div class="row justify-content-around">
+
+        <div class="sobre-text grad col-xl-4 col-lg-2 col-sm-5">
+            <img class="" src="{% static 'img/josi.png' %}" width="120px" alt="foto do componente Josi">
+            <p class="discente">Discente do curso técnico em informática pelo IFRN</p>
+            <p class="nome">Josimiel Adrian</p>
+            <p class="cidade">Pau dos Ferros-RN</p>
+        </div>
+
+        <div class="sobre-text grad col-xl-4  col-lg-2 col-sm-5">
+            <img class="" src="{% static 'img/ruan.png' %}" width="120px" alt="foto do componente Ruan">
+            <p class="discente">Discente do curso técnico em informática pelo IFRN</p>
+            <p class="nome">Ruan Pereira</p>
+            <p class="cidade">Pau dos Ferros-RN</p>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
