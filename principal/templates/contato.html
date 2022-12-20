@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block principal %}
+<h1>CONTATO</h1>
+<form class="form-contato " action="" method="post" autocomplete="off">
+    {% csrf_token %}
+    {{ form | crispy }}
+    <div class="d-flex justify-content-end">
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </div>
+</form>
+
+{% endblock %}

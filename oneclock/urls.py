@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-
+from django.contrib.auth.views import LoginView
 from principal.views import *
 
 urlpatterns = [
@@ -26,5 +26,9 @@ urlpatterns = [
     path('relogios/', relogios, name='relogios'),
     path('expandido/<int:id>', expandido, name='expandido'),
     path('quemsomos/', quemsomos, name='quemsomos'),
+    path('contato/', contato, name='contato'),
+    path('administracao/', administracao, name='administracao'),
+    path('accounts/login/',LoginView.as_view(template_name='login.html'),name='login'),
+    path('logout/', logout_aplicacao ,name='logout'),
 
 ]+ static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)

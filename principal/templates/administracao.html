@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block principal %}
+<h1>ADMINISTRAÇÃO</h1>
+<a class="logout" href="{% url 'logout' %}"><button type="button" class="btn btn-primary">SAIR</button></a>
+<section class="administracao">
+    <div>
+        <p>Conta Corrente </p>
+        <p>60175-4</p>
+        <p>Agência</p>
+        <p>0672</p>
+        <p>Banco</p>
+        <p>Itaú</p>
+        <p>Cidade</p>
+        <p>Sao Paulo</p>
+        <p>Estado</p>
+        <p>SP</p>
+    </div>
+    <div>
+        <p>Número do Cartão</p>
+        <p> 5112 9402 2289 3985</p>
+        <p>Data de Validade</p>
+        <p>20/10/2023</p>
+        <p>Código Segurança (CVV)</p>
+        <p>278</p>
+    </div>
+</section>
+{% endblock %}
